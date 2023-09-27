@@ -108,7 +108,7 @@ const pokemons =
   'kingler',
   'voltorb' ]
 
-const num = parseInt(prompt('Ingresa un numero'));
+const num = parseInt(prompt('Ingresa un numero del 1 al 100'));
 
 for (let i = 0; i <= num; i++) {
     if (i % 5 === 0 && i !== 0) {
